@@ -3,7 +3,11 @@ name: Release Pipeline
 on:
   push:
     branches:
-      - main
+      - feature/*
+      - investigation/*
+  pulll requests: 
+    branches:
+      -main
 
 jobs:
   deploy-production:
