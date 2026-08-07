@@ -31,3 +31,5 @@ jobs:
           npm install --prefix app
           npm test --prefix app
           exit 1
+      - env : 
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
