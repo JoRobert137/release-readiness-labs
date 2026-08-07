@@ -58,4 +58,3 @@ Make your changes and push them back to the repository.
 └── README.md
 ```
 
-## Thank you - (for trgiggering workflow)
