@@ -5,6 +5,7 @@ on:
     branches:
       - feature/*
       - investigation/*
+on:
   pull requests: 
     branches:
       -main
